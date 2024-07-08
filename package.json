@@ -1,8 +1,5 @@
 {
   "name": "final-project-template",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "lerna run start --stream",
     "build": "lerna run build --stream",
@@ -14,8 +11,7 @@
     "install:server:dev": "lerna add --scope=server --dev",
     "install:client:dev": "lerna add --scope=client --dev",
     "server": "lerna exec --scope server yarn",
-    "client": "lerna exec --scope client yarn",
-    "vercel-build": "echo hello"
+    "client": "lerna exec --scope client yarn"
   },
   "private": true,
   "devDependencies": {
