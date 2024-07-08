@@ -1,5 +1,8 @@
 {
   "name": "final-project-template",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "lerna run start --stream",
     "build": "lerna run build --stream",
