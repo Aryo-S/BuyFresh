@@ -57,7 +57,7 @@ export default function ChangePasswordPage() {
             <Toaster />
             <div className='grid place-content-center'>
                 <Link to={'/'}>
-                    <img src={"./buyfresh_logo.png" && "https://cdn.discordapp.com/attachments/1159339445049368588/1174957031107608636/buyfresh_logo.png?ex=65697b01&is=65570601&hm=ff2240905e431008b2dccd668e94ce44a2e248efb11493b26c265c7dba380f28&"} alt="app_logo" className="h-[200px]" />
+                    <img src={"./buyfresh_logo.png"} alt="app_logo" className="h-[200px]" />
                 </Link>
             </div>
             {

@@ -1,0 +1,1 @@
+web: cd projects && cd server && npm start
