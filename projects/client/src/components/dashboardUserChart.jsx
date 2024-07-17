@@ -17,8 +17,8 @@ const DashboardUserChart = ({ data }) => {
                 barGap={50}
             >
                 <CartesianGrid stroke="#f5f5f5" />
-                <XAxis dataKey="date" tick={{ textAnchor: 'start', dx: 60 }} scale="band" />
-                <YAxis />
+                <XAxis dataKey="date" tick={{ textAnchor: 'middle', dx: 60 }} scale="band" />
+                <YAxis domain={[0, 10]}  />
                 <Tooltip />
                 <Legend />
                 <Bar dataKey="count" barSize={40} fill="#005B31" />
